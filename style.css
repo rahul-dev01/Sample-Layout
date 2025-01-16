@@ -1,0 +1,61 @@
+/*      Navigation Css */
+
+* {
+    margin: 3.5px;
+    background-color: rgb(245, 219, 192);
+    padding: 0;
+}
+
+.main-logo>img {
+    height: 45px;
+    width: 45px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar>div>input {
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.nav-link ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-link>ul>a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/*    Card CSS    */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    align-items: center;
+    width: 300px;
+}
+
+#mountain-image {
+    height: 350px;
+    width: 250px;
+    filter: drop-shadow(5px 5px 5px black);
+}
